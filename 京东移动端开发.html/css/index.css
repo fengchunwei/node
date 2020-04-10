@@ -1,0 +1,322 @@
+.box {
+    position: relative;
+    background: rgb(255, 255, 255);
+}
+/* 顶部搜索 */
+.header {
+    width: 100%;
+    height: 40px;
+    background: red;
+    position: fixed;
+    z-index: 1;
+}
+.header .headerBox {
+    position: relative;
+}
+.header .headerBox .logo {
+    width: 60px;
+    height: 40px;
+    background-image: url(../images/lALPGojJ67oFn1bNAZDNAZA_400_400.png) ;
+    background-size: 200px 200px;
+    background-position: 0 -109px;
+    position:absolute;
+    top: 10px;
+    left: 10px;
+}
+.header .headerBox form {
+    width: 100%;
+    height: 40px;
+    position:absolute;
+    padding-left: 80px;
+    padding-right: 50px;
+    margin-top: 5px;
+}
+.header .headerBox form input {
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    padding-left:40px ;
+}
+.header .headerBox span {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+.header .headerBox .search {
+    width: 60px;
+    height: 40px;
+    background-image: url(../images/lALPGojJ67oFn1bNAZDNAZA_400_400.png);
+    background-size: 200px 200px;
+    background-position: -60px -109px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 90px;
+}
+/* 轮播图 */
+.loop {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.loop ul {
+    width: 800%;
+}
+.loop ul:first-child li {
+    width: 12.5%;
+    float: left;
+}
+.loop ul:first-child li img {
+    width: 100%;
+    display: block;
+}
+/*  */
+.loop ul:last-child {
+    width: 230px;
+    height: 68px;
+    position: absolute;
+    bottom: -24% ;
+    left: 30%;
+}
+.loop ul:last-child li {
+    width: 6px;
+    height: 6px;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+/*  */
+.nav {
+    background: #fff;
+    width: 100%;
+    height: 150px;
+    padding: 0 3%;
+}
+.nav ul li {
+    text-align: center;  text-align: center;
+     width: 25%;
+     float: left;
+     margin-top: 8px;
+     position: relative;
+}
+.nav ul li img {
+    width: 40px;
+    height: 40px;
+}
+.nav ul li p {
+    font-size: 12px;
+    color: #666;
+}
+/* 秒杀 */
+.product {
+    width: 98%;
+
+    margin-left: 1%;
+}
+.str_time {
+    float: right;
+}
+.product_one {
+    background: #fff;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    height: 150px;
+    /* margin-left: 1%; */
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.product_top {
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+.product_top .product_a {
+    margin-top: 2px;
+    width: 20px;
+    height: 25px;
+    position: absolute;
+}
+.product_top a img {
+    width: 100%;
+}
+.product_top .product_span {
+     margin-left: 32px;
+     line-height: 35px;
+     color:#d13747;
+
+}
+.product_top .product_left {
+    float: left;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.product_top .product_right {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.product_top .product_ms {
+    margin-top: 7px;
+    margin-left: 26px;
+}
+.dd {
+    margin-right:-8px ;
+}
+.hh {
+    text-align: center;
+    line-height: 15px;
+    background: black;
+    display: inline-block;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+}
+
+.main ul li {
+    width: 33.3%;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+.main ul li div {
+    border-right: 1px dashed #ccc;
+    width: 100%;
+}
+.main ul li div img {
+    width: 70px;
+}
+.main ul li p:nth-of-type(1){
+    color: red;
+}
+
+
+/*  */
+.product_two {
+    background: #fff;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding: 0 2%;
+    height: 230px;
+    /* margin-left: 1%; */
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+.product_shoppingTop {
+    width: 100%;
+    height: 19.2px;
+    border-bottom: 1px solid #ccc;
+}
+.d1{
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 10px;
+    margin-left: 20px;
+    float: left;
+    border-left: 3px solid red;
+}
+.d2{
+    font-weight: 700;
+    font-size: 14px;
+    float: left;
+    width: 200px;
+}
+
+
+.product_two .product_shoppingBottom div {  
+    float: left;
+}
+/* .product_two .product_shoppingTop  {
+    border-bottom: 1px solid #ccc;
+} */
+.product_two .product_shoppingBottom div:nth-of-type(1){
+    width: 49%;
+}
+.product_two .product_shoppingBottom div:nth-of-type(1) img {
+    width: 100%;
+}
+.product_two .product_shoppingBottom div:nth-of-type(2) {
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+}
+.product_two .product_shoppingBottom div:nth-of-type(2) img {
+    width: 100%;
+}
+.product_two .product_shoppingBottom div:nth-of-type(3) {
+    border-left: 1px solid #ccc;
+    width: 50%;
+}
+.product_two .product_shoppingBottom div:nth-of-type(3) img {
+    width: 100%;
+    background-size: 100% 100%;
+}
+/*  */
+.product_three {
+    box-shadow: 1px 1px 1px 1px #ccc;
+    width: 100%;
+    height: 230px;
+    /* margin-left: 1%; */
+    margin-bottom: 5px;
+}
+.d1{
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 10px;
+    margin-left: 20px;
+    float: left;
+    border-left: 3px solid red;
+}
+.d2{
+    font-weight: 700;
+    font-size: 14px;
+    float: left;
+    width: 200px;
+}
+.product_three .shoptitle p{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.product_three .shoptitle p::before{
+    content: "";
+    margin-left: 21px;
+    margin-right: 10px;
+    border: 2px solid red;
+}
+.product_three .shopcon{
+    /* border-top: 1px solid #ccc; */
+    margin-top: 8px;
+} 
+.product_three .shopcon div:nth-of-type(1){
+    font-size: 0;
+    width: 50%;
+}
+.product_three .shopcon div:nth-of-type(1) img{
+    font-size: 0;
+    width: 100%;
+}
+.product_three .shopcon div:nth-of-type(2){
+    width: 50%;
+    font-size: 0;
+}
+.product_three .shopcon div:nth-of-type(2) img{
+    width: 100%;
+    font-size: 0;
+}
+.product_three .shopcon div:nth-of-type(3){
+    width: 50%;
+    font-size: 0;
+}
+.product_three .shopcon div:nth-of-type(3) img{
+    width: 100%;
+    font-size: 0;
+    margin-top: -3px;
+}
+.product_three .shopcon div{
+    float: right;
+    font-size: 0;
+}
